@@ -1,3 +1,8 @@
+# Budget Buddy (Front-End)
+
+[Link to Back-End repository](https://github.com/jba395/Budget-Buddy-Backend)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
