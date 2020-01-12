@@ -1,0 +1,20 @@
+.loginHeader, Form {
+    color: #fc4a1a;
+    font-weight: bolder;
+    background-color: #4abdac;
+}
+
+Form {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.submit {
+    background-color: #fc4a1a !important;
+}
+
+.usernameBox, .passwordBox {
+    width: 20%;
+    margin: auto;
+}
+
