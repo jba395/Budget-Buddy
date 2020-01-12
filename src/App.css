@@ -55,6 +55,12 @@ body, .Form, .jumbotron {
   /* background-color: #000; */
 }
 
+.jumbotron {
+  /* background-image: url(''); */
+
+  background-size: 100%;
+}
+
 button {
   background-color: #f7b733;
 }
