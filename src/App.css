@@ -43,24 +43,39 @@
 
 h1 {
   font-size: 2rem;
+  font-weight: bolder;
 }
 
 h1, p {
   font-family: "Raleway", sans-serif;
-  color: #000
+  color: #fff;
 }
 
-body, .Form, .jumbotron {
+body, .Form {
   background-color: #4abdac !important;
   /* background-color: #000; */
 }
 
-.jumbotron {
-  /* background-image: url(''); */
-
-  background-size: 100%;
+.main {
+  border: 2px black solid;
+  padding: 10px;
 }
 
 button {
   background-color: #f7b733;
+}
+
+i {
+  font-size: 75px !important;
+}
+
+.jumbo {
+  background-color: #fc4a1a;
+  padding: 25px;
+  color: lightgrey;
+  font-weight: bolder;
+}
+
+.lead {
+  color: lightgrey;
 }

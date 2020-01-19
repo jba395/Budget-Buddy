@@ -1,4 +1,43 @@
-p {
+.message {
     width: 30%;
     margin: auto;
+    margin-bottom: 25px;
+    padding: 10px;
+    color: white;
+}
+
+.home {
+    background-color: #4abdac;
+    /* opacity: 30%; */
+}
+
+.image {
+    margin: auto;
+    width: 100%;
+}
+
+.col-sm {
+    padding: 2rem;
+    margin: 10px;
+    border: #fc4a1a 2px solid;
+    border-radius: 25px;
+    color: #fc4a1a
+}
+
+h2 {
+    color: #fc4a1a;
+}
+
+.btn-primary {
+    background-color: #f7f733 !important;
+    color: black;
+}
+
+i {
+    padding: 1rem;
+    color: #000
+}
+
+p {
+    color: #000
 }

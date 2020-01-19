@@ -17,12 +17,10 @@ import Login from './components/login/login.js';
 function App() {
   return (
     <div className="App">
-      <div class="jumbotron jumbotron-fluid">
-        <div class="container">
+      <div className = 'jumbo'>
          <h1 class="display-4">Budget Buddy</h1>
          <p class="lead">An Easier Way to Track Your Money</p>
         </div>
-      </div>
 
       <Router>
       <div>
