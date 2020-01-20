@@ -1,5 +1,6 @@
 import React from 'react';
 import './home.css';
+import {Link} from 'react-router-dom';
 
 class Home extends React.Component {
     render() {
@@ -9,8 +10,14 @@ class Home extends React.Component {
 
             <h2>Ready to get started?</h2>
 
-            <button type="button" class="btn btn-primary">Log In</button>
-            <button type="button" class="btn btn-primary">Register</button>            
+            <Link to = '/login'>
+            <button type="button" className="btn btn-primary">Log In</button>
+            </Link>
+
+            <Link to = '/register'>
+            <button type="button" className="btn btn-primary">Register</button>
+            </Link>
+
                 <div className = 'container'>
                 <div className = 'row'>
                         <div className = 'col-sm'>

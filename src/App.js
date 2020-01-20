@@ -13,13 +13,14 @@ import {
 // import components to link
 import Home from './components/home/home.js';
 import Login from './components/login/login.js';
+import Register from './components/register/register.js'
 
 function App() {
   return (
     <div className="App">
       <div className = 'jumbo'>
-         <h1 class="display-4">Budget Buddy</h1>
-         <p class="lead">An Easier Way to Track Your Money</p>
+         <h1 className="display-4">Budget Buddy</h1>
+         <p className="lead">An Easier Way to Track Your Money</p>
         </div>
 
       <Router>
@@ -37,6 +38,10 @@ function App() {
           <Route exact path="/login">
             <Login />
           </Route>
+          <Route exact path='/register'>
+            <Register />
+          </Route>
+
         </Switch>
       </div>
     </Router>
